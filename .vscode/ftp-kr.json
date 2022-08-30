@@ -1,0 +1,16 @@
+{
+    "host": "ftp.sessionspark.com",
+    "username": "rob@starsixty9.com",
+    "password": "st@r69Sucks",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": false,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
