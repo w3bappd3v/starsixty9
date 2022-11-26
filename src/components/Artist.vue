@@ -13,7 +13,7 @@
 
 <template>
     <div class="artist">
-        <h2 class="artist-name">{{ name }}</h2>
+        <h3 class="artist-name">{{ name }}</h3>
         <p class="description">{{ description }}</p>
     </div>
 </template>
