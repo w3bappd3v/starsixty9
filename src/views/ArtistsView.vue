@@ -1,9 +1,10 @@
 <script setup>
     import Artist from '@/components/Artist.vue'
-    import artists from '../data/artists.json'
+    import artists from '../assets/data/artists.json'
 </script>
 
 <template>
+    <h2>All Artists</h2>
     <Artist
         v-for="(artist, index) in artists"
         :name="artist.name"

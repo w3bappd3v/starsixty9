@@ -19,8 +19,8 @@
 </template>
 
 <style lang="scss" scoped>
-    $base-color: red;
-    .artist-name, .description {
+    $base-color: rgb(219, 62, 62);
+    .artist-name {
         color: $base-color;
     }
 </style>

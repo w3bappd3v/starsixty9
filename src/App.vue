@@ -16,11 +16,17 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style lang="scss" scoped>
+header {
+  display: flex;
+  align-items: center;
+}
+
 nav {
-  width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  a {
+    color: rgb(39, 134, 206);
+  }
 }
 
 nav a.router-link-exact-active {
@@ -46,6 +52,7 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+    align-items: center;
   }
 
   nav {
