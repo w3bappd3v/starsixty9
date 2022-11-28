@@ -1,9 +1,11 @@
 [
     {
+        "id": "1",
         "name": "Dank Will",
         "description": "Hip Hop from LA."
     },
     {
+        "id": "2",
         "name": "Rob Steel",
         "description": "Music producer in Las Vegas."
     }

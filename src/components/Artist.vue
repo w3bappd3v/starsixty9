@@ -1,5 +1,9 @@
 <script setup>
     defineProps({
+      id: {
+        type: String,
+        required: true
+      },
       name: {
         type: String,
         required: true
@@ -12,11 +16,10 @@
 </script>
 
 <template>
-    <div class="artist">
+    <RouterLink class="artist" :to="{ name: 'artist', params: { id: id }}">
         <h3 class="artist-name">{{ name }}</h3>
         <p class="description">{{ description }}</p>
-    </div>
-</template>
+    </RouterLink></template> 
 
 <style lang="scss" scoped>
     $base-color: rgb(219, 62, 62);

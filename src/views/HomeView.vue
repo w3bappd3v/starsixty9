@@ -7,6 +7,7 @@ import Artist from '@/components/Artist.vue'
   <main>
     <h2>Featured Artist</h2>
     <Artist
+        :id="artists[0].id"
         :name="artists[0].name"
         :description="artists[0].description"
     />
