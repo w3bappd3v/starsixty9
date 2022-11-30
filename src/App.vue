@@ -25,7 +25,13 @@ nav {
   font-size: 12px;
   text-align: center;
   a {
-    color: rgb(39, 134, 206);
+    color: #2786ce;
+    font-size: 1.5em;
+    text-decoration: none;
+
+    &:hover {
+      color: #cb6161;
+    }
   }
 }
 

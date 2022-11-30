@@ -15,15 +15,31 @@
     })
 </script>
 
+<script>
+  export default {
+    methods: {
+      handleClick() {
+        this.$router.push({ name: 'artist', params: { id: this.id }});
+      }
+    }
+  }
+</script>
+
 <template>
-    <RouterLink class="artist" :to="{ name: 'artist', params: { id: id }}">
-        <h3 class="artist-name">{{ name }}</h3>
-        <p class="description">{{ description }}</p>
-    </RouterLink></template> 
+    <div @click="handleClick" class="artist">
+      <h3 class="artist-name">{{ name }}</h3>
+      <p class="description">{{ description }}</p>
+      <slot></slot>
+    </div>
+</template> 
 
 <style lang="scss" scoped>
-    $base-color: rgb(219, 62, 62);
-    .artist-name {
-        color: $base-color;
+    .artist {
+        border: 1px solid #c8c8c8;
+        border-radius: 6px;
+        cursor: pointer;
+        padding: 10px;
+        margin-bottom: 20px;
+        max-width: 480px;
     }
 </style>
