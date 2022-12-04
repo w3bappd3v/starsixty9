@@ -35,7 +35,7 @@
 
 <style lang="scss" scoped>
     .artist {
-        border: 1px solid #c8c8c8;
+        border: 1px solid #e3e3e3;
         border-radius: 6px;
         cursor: pointer;
         padding: 10px;

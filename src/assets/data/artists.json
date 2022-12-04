@@ -2,11 +2,19 @@
     {
         "id": "1",
         "name": "Dank Will",
-        "description": "Hip Hop from LA."
+        "description": "Hip Hop from LA.",
+        "songs": [
+            "DW Song 1",
+            "DW Song 2"
+        ]
     },
     {
         "id": "2",
         "name": "Rob Steel",
-        "description": "Music producer in Las Vegas."
+        "description": "Music producer in Las Vegas.",
+        "songs": [
+            "RS Song 1",
+            "RS Song 2"
+        ] 
     }
 ]
