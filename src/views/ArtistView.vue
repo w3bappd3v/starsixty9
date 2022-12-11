@@ -1,13 +1,13 @@
 <script setup>
 import Artist from '@/components/Artist.vue'
-import Songs from '@/components/Songs.vue'
+import Works from '@/components/Works.vue'
 import artists from '../assets/data/artists.json'
 </script>
 
 <template>
     <h2>Artist Details</h2>
     <Artist :id="artist.id" :name="artist.name" :description="artist.description">
-        <Songs :songs="artist.songs" />
+        <Works :works="artist.works" />
     </Artist>
 </template>
 
@@ -15,7 +15,7 @@ import artists from '../assets/data/artists.json'
 export default {
     components: {
         Artist,
-        Songs,
+        Works,
     },
     data() {
         return {

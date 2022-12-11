@@ -1,24 +1,24 @@
 <script>
   export default {
     props: {
-      songs: Array
+      works: Array
     }
   }
 </script>
 
 <template>
-  <div class="songs">
-    <h4>Songs</h4>
+  <div class="works">
+    <h4>Works</h4>
     <ul>
-      <li v-for="(song, index) in songs">
-        {{ song }}
+      <li v-for="(work, index) in works">
+        {{ work.name }}
       </li>
     </ul>
   </div>
 </template> 
 
 <style lang="scss" scoped>
-  .songs {
+  .works {
     padding: 10px;
   }
 </style>

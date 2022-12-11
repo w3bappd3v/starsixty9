@@ -5,6 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="center-me">
     <header>
+      <img src="./assets/s69.png" />
       <h1>Starsixty9</h1>
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -25,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
     display: flex;
     align-items: center;
   }
-  
+
   nav {
     font-size: 12px;
     text-align: center;
