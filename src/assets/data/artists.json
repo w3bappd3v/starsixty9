@@ -16,7 +16,7 @@
     },
     {
         "id": "2",
-        "name": "Rob Steel",
+        "name": "Rob Hood",
         "description": "Music producer in Las Vegas.",
         "works": [
             {
@@ -24,7 +24,7 @@
                 "path": "../artists/robSteel/testAudioTrack.mp3"
             },
             {
-                "name": "RS Track 2",
+                "name": "RH Track 2",
                 "path": ""
             }
         ]
