@@ -2,6 +2,11 @@
   export default {
     props: {
       works: Array
+    },
+    methods: {
+      getWorks() {
+        return this.works.pieces;
+      }
     }
   }
 </script>
@@ -11,7 +16,16 @@
     <h4>Works</h4>
     <ul>
       <li v-for="(work, index) in works">
-        {{ work.name }}
+        {{ work.title }}
+        <ul>
+          <li v-for="(piece, index) in work.pieces">
+            {{ piece.name }}
+            <audio controls>
+              <source :src="piece.path" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>      
+          </li>
+        </ul>
       </li>
     </ul>
   </div>
