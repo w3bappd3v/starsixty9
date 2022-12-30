@@ -9,7 +9,7 @@
                 "title": "Intro",
                 "pieces": [
                     {
-                        "name": "Test Audio Track",
+                        "name": "No Soul",
                         "path": "../assets/artists/sncrn1x/no-soul.wav"
                     }
                 ]
@@ -20,7 +20,18 @@
         "id": "1",
         "name": "Dank Will",
         "description": "Hip Hop from LA.",
-        "works": []
+        "works": [
+            {
+                "type": "music",
+                "title": "THC",
+                "pieces": [
+                    {
+                        "name": "Ya Mon",
+                        "path": "../assets/artists/dankwill/yamon.wav"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "2",
