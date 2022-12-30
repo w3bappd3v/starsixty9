@@ -1,21 +1,24 @@
 [
     {
-        "id": "3",
+        "id": "69",
         "name": "Sncr0nX",
         "description": "Modern Music Composer.",
-        "works": {
-            "type": "music",
-            "pieces": [
-                {
-                    "name": "Test Audio Track",
-                    "path": "../assets/artists/sncrn1x/no-soul.wav"
-                },
-                {
-                    "name": "RH Track 2",
-                    "path": ""
-                }
-            ]
-        }
+        "works": [
+            {
+                "type": "music",
+                "title": "Intro",
+                "pieces": [
+                    {
+                        "name": "Test Audio Track",
+                        "path": "../assets/artists/sncrn1x/no-soul.wav"
+                    },
+                    {
+                        "name": "RH Track 2",
+                        "path": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "1",
