@@ -3,30 +3,54 @@
         "id": "1",
         "name": "Dank Will",
         "description": "Hip Hop from LA.",
-        "works": [
-            {
-                "name": "DW Track 1",
-                "path": ""
-            },
-            {
-                "name": "DW Track 2",
-                "path": ""
-            }
-        ]
+        "works": {
+            "type": "music",
+            "pieces": [
+                {
+                    "name": "DW Track 1",
+                    "path": ""
+                },
+                {
+                    "name": "DW Track 2",
+                    "path": ""
+                }
+            ]
+        }
     },
     {
         "id": "2",
-        "name": "Rob Hood",
+        "name": "Rob Steel",
         "description": "Music producer in Las Vegas.",
-        "works": [
-            {
-                "name": "Test Audio Track",
-                "path": "../artists/robSteel/testAudioTrack.mp3"
-            },
-            {
-                "name": "RH Track 2",
-                "path": ""
-            }
-        ]
+        "works": {
+            "type": "music",
+            "pieces": [
+                {
+                    "name": "Test Audio Track",
+                    "path": "../artists/robSteel/testAudioTrack.mp3"
+                },
+                {
+                    "name": "RH Track 2",
+                    "path": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "name": "Sncr0nX",
+        "description": "Modern Music Composer.",
+        "works": {
+            "type": "music",
+            "pieces": [
+                {
+                    "name": "Test Audio Track",
+                    "path": "../assets/artists/sncrn1x/no-soul.wav"
+                },
+                {
+                    "name": "RH Track 2",
+                    "path": ""
+                }
+            ]
+        }
     }
 ]

@@ -12,6 +12,10 @@
         type: String,
         required: true
       },
+      workPath: {
+        type: String,
+        required: true
+      }
     })
 </script>
 
