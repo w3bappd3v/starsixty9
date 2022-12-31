@@ -28,6 +28,10 @@
                     {
                         "name": "Ya Mon",
                         "path": "../assets/artists/dankwill/yamon.wav"
+                    },
+                    {
+                        "name": "Paper Meal",
+                        "path": "../assets/artists/dankwill/paper-meal.wav"
                     }
                 ]
             }
